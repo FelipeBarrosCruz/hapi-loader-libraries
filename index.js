@@ -23,6 +23,7 @@ function register (server, options, next) {
         Repository.set(ExtractLibraryName(library), require(Path.join(options.cwd, library)))
       })
       server.decorate('request', 'library', Repository);
+      server.decorate('server', 'library', Repository);
       next(null)
     })
   } catch(err) {
