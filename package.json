@@ -1,0 +1,29 @@
+{
+  "name": "hapi-loader-libraries",
+  "version": "1.0.0",
+  "description": "HapiJS plugin for dynamically load libraries from path\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeBarrosCruz/hapi-loader-libraries.git"
+  },
+  "keywords": [
+    "hapijs",
+    "hapi",
+    "loader",
+    "library",
+    "libraries"
+  ],
+  "author": "FelipeBarrosCruz <felipe.barros.pt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelipeBarrosCruz/hapi-loader-libraries/issues"
+  },
+  "homepage": "https://github.com/FelipeBarrosCruz/hapi-loader-libraries#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
